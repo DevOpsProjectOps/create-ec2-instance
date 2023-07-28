@@ -65,7 +65,7 @@ For full tutorial follow [this](https://www.youtube.com/watch?v=Dc0t4LDOySY&list
 10) Open your [favourate terminal](https://imgur.com/yYOhmnC.png) 
 	- Goto the path where the key pair file [was](https://imgur.com/gOi8lxB.png) downloaded.
 	- use command `chmod 400 filename.pem`, as like [this](https://imgur.com/JedyEOY.png).
-		- If you are interested behind the scene of `chmod 400` follow [this](https://pastebin.com/jNK5AbMv).
+		- If you are interested behind the scene of `chmod 400` follow [this](https://pastebin.com/v2ynHpA4).
 12.   Type the commad 
 	`ssh -i /path/of/key/downloaded ubuntu@public.ip.address.`
 	![Command](https://imgur.com/50FXasm.png)
