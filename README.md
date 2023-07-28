@@ -10,12 +10,12 @@ For full tutorial follow [this](https://www.youtube.com/watch?v=Dc0t4LDOySY&list
 3. Click on the **red colored rectangle** mentioned below
 	![Instance Creation](https://imgur.com/wXFU4jU.png)
 4. Click on the **Launch Instance**
-<details>
-<summary>IMG</summary>
+	<details>
+	<summary>IMG</summary>
 
-![](https://imgur.com/utMETuI.png)
+	![](https://imgur.com/utMETuI.png)
 
-</details>
+	</details>
 
 5. Fill the details
 - Name -> [any name](https://imgur.com/7WPpqrQ.png) of the instance of your wish. 
@@ -23,6 +23,7 @@ For full tutorial follow [this](https://www.youtube.com/watch?v=Dc0t4LDOySY&list
 	![Name of instance](https://imgur.com/7WPpqrQ.png)
 - OS Image -> the OS you want for your remote server. 
 	- [recommended](https://imgur.com/XUUsFlB.png): **ubuntu**
+	
 	
 		![OS Image](https://imgur.com/XUUsFlB.png)
 - Instance type -> This include the combinations of cpu, storage, memeory, networking capacity.
@@ -47,18 +48,23 @@ For full tutorial follow [this](https://www.youtube.com/watch?v=Dc0t4LDOySY&list
 
 7) After all this, [Click on](https://imgur.com/tXyNKnl.png) on the Successfully initiated launch of instance **i-xXXxXXxx** 
 	-	i-xXXxXXxx -> your instance ID. Every instance will have its own ID
-
+	
+	![Click on instance id](https://imgur.com/tXyNKnl.png)
 
 8) Probably your screen should be like [this](https://imgur.com/js5Fs18.png)
 
+	![Screen](https://imgur.com/js5Fs18.png)
+
 9) Click on the **[Instance ID](https://imgur.com/3lCZAah.png)**
+
+	![Instance ID](https://imgur.com/3lCZAah.png)
 
 10) Copy the **[Public Ip Address](https://imgur.com/0ZKfYXi.png)**
 	![Ip Address](https://imgur.com/0ZKfYXi.png)
 
 10) Open your [favourate terminal](https://imgur.com/yYOhmnC.png) 
 	- Goto the path where the key pair file [was](https://imgur.com/gOi8lxB.png) downloaded.
-	- use command `chmod 400 filename.pem`, as [this](https://imgur.com/JedyEOY.png).
+	- use command `chmod 400 filename.pem`, as like [this](https://imgur.com/JedyEOY.png).
 		- If you are interested behind the scene of `chmod 400` follow [this]().
 12.   Type the commad 
 	`ssh -i /path/of/key/downloaded ubuntu@public.ip.address.`
